@@ -4360,3 +4360,13 @@ body.is-preload #header .image img {
 	width: 50px;
 	gap: 10px;
 }
+
+.school-v {
+	height: 75px;
+	width: 75px;
+}
+
+.school-b {
+	height: 140px;
+	width: 150px;
+}
