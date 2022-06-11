@@ -4370,3 +4370,12 @@ body.is-preload #header .image img {
 	height: 140px;
 	width: 150px;
 }
+
+.live {
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
