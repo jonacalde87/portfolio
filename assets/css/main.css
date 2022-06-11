@@ -4343,7 +4343,8 @@ body.is-preload #header .image img {
 
 .tech-icons {
 	width: 90px;
-	background-image: none;
+	/* background-image: none; */
+	background-color: transparent;
 }
 
 .header-projects {
@@ -4377,5 +4378,9 @@ body.is-preload #header .image img {
 	align-items: center;
 	font-size: 15px;
 	font-weight: bold;
-	
+}
+
+.skill-text {
+	text-align: center;
+	font-weight: bold;
 }
