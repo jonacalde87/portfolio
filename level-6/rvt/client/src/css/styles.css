@@ -1,0 +1,9 @@
+.login-btn, .sign-btn {
+    background-color: rgb(67, 67, 232);
+    color: whitesmoke;
+    width: 120px;
+    margin: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
