@@ -8,12 +8,18 @@
 
 <head>
 	<title>Jonathan Calderon</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
 </head>
 
 <body class="is-preload">
@@ -51,9 +57,15 @@
 		<ul class="icons major">
 			<h3>Technical Skills</h3>
 			<!-- logos of technologies -->
-			<li><h5 class="skill-text">React</h5><img class="tech-icons" src="./images/reactLogo.bmp" alt="" /></li>
-			<li><h5 class="skill-text">MongoDB</h5><img class="tech-icons" src="./images/mongoLogo.bmp" alt="" /></li>
-			<li><h5 class="skill-text">NodeJS</h5><img class="tech-icons" src="./images/nodeLogo.bmp" alt="" /></li>
+			<li>
+				<h5 class="skill-text">React</h5><img class="tech-icons" src="./images/reactLogo.bmp" alt="" />
+			</li>
+			<li>
+				<h5 class="skill-text">MongoDB</h5><img class="tech-icons" src="./images/mongoLogo.bmp" alt="" />
+			</li>
+			<li>
+				<h5 class="skill-text">NodeJS</h5><img class="tech-icons" src="./images/nodeLogo.bmp" alt="" />
+			</li>
 		</ul>
 	</section>
 
@@ -61,18 +73,53 @@
 	<section id="two" class="wrapper">
 		<h2 class="header-projects">Projects I've done</h2>
 		<div class="inner alt">
+
 			<section class="spotlight">
 				<div class="image">
-					<a href='https://alabama-travel-log-app.herokuapp.com/' target="_blank" rel="noopener noreferrer">
-						<img src="images/travelLog.PNG" alt="" />
-					</a>
-					<p class="live">click image to see live project</p>
+					<img src="images/USAMIRA.PNG" alt="" />
+
+					<div class="code-container">
+						<a href='https://usamira.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+							<button class="code-btn">VIEW LIVE</button>
+						</a>
+						<a href='https://github.com/jonacalde87/USAMIRA/tree/master' target="_blank"
+							rel="noopener noreferrer">
+							<button class="code-btn">VIEW CODE</button>
+						</a>
+					</div>
+
 				</div>
 
 				<div class="content">
-					<h3><a href='https://github.com/jonacalde87/Full-Stack-Project' target="_blank"
+					<h3>US Army Military Installation Review App (USAMIRA)</h3>
+					<p>Full Stack MERN application with user authentication created for service members and their
+						families
+						to share their experiences living on base. Users can freely discuss past inconveniences
+						and solutions to problems that affect a specific base while upvoting/downvoting posts.
+					</p>
+				</div>
+			</section>
+
+			<section class="spotlight">
+				<div class="image">
+
+
+					<img src="images/travelLog.PNG" alt="" />
+
+					<div class="code-container">
+						<a href='https://alabama-travel-log-app.herokuapp.com/' target="_blank"
 							rel="noopener noreferrer">
-							Travel Log</a></h3>
+							<button class="code-btn">VIEW LIVE</button>
+						</a>
+						<a href='https://github.com/jonacalde87/Full-Stack-Project' target="_blank"
+							rel="noopener noreferrer">
+							<button class="code-btn">VIEW CODE</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="content">
+					<h3>Travel Log</h3>
 					<p>MERN stack application for travelers to log their experience and share with others that are using
 						the app.
 						The front-end was created with create react app, Axios, and react-router, with three routes.
@@ -80,21 +127,24 @@
 						MongoDB. </p>
 				</div>
 			</section>
-			<!-- <a href='https://alabama-travel-log-app.herokuapp.com/' target="_blank" rel="noopener noreferrer">
-				<img src="images/travelLog.PNG" alt="" />
-			</a> -->
+
 			<section class="spotlight">
 				<div class="image">
-					<a href='https://eboymarketplace.netlify.app/' target="_blank" rel="noopener noreferrer">
-						<img src="images/retail.PNG" alt="" />
-					</a>
-					<p class="live">click image to see live project</p>
+					<img src="images/retail.PNG" alt="" />
+					<div class="code-container">
+						<a href='https://eboymarketplace.netlify.app/' target="_blank"
+							rel="noopener noreferrer">
+							<button class="code-btn">VIEW LIVE</button>
+						</a>
+						<a href='https://github.com/jonacalde87/V-School-Assignments/tree/main/level-4/react-api-project' target="_blank"
+							rel="noopener noreferrer">
+							<button class="code-btn">VIEW CODE</button>
+						</a>
+					</div>
 				</div>
 
 				<div class="content">
-					<h3><a href='https://github.com/jonacalde87/V-School-Assignments/tree/main/level-4/react-api-project'
-							target="_blank" rel="noopener noreferrer">
-							Retail Marketplace App</a></h3>
+					<h3>Retail Marketplace App</h3>
 					<p>The objective of this project was to create a front-end application using react, an online API
 						and Axios. React routes were used to map three different pages and different React hooks were
 						used to accomplish the goal. </p>
@@ -127,21 +177,21 @@
 			<!-- Three : (Education) -->
 			<section id="three" class="wrapper style2 special">
 				<header class="education">
-					<h2>Education</h2>		
-							<p>V School - Full Stack JavaScript Development <br>
-								Feb 2022 - June 2022
-								<a href='https://vschool.io/' target="_blank" rel="noopener noreferrer"><br>
-									<img class="school-v" src="images/vschool.bmp" alt="" /></a> <br><br>
-				
+					<h2>Education</h2>
+					<p>V School - Full Stack JavaScript Development <br>
+						Feb 2022 - June 2022
+						<a href='https://vschool.io/' target="_blank" rel="noopener noreferrer"><br>
+							<img class="school-v" src="images/vschool.bmp" alt="" /></a> <br><br>
 
-						
-							BS Software Development, Bellevue University<br>
-								Aug 2019 - Dec 2022
-								<a href='https://www.bellevue.edu/' target="_blank" rel="noopener noreferrer"><br>
-									<img class="school-b" src="images/bellevue.bmp" alt="" /> </a>
-							</p>
-						
-					
+
+
+						BS Software Development, Bellevue University<br>
+						Aug 2019 - Dec 2022
+						<a href='https://www.bellevue.edu/' target="_blank" rel="noopener noreferrer"><br>
+							<img class="school-b" src="images/bellevue.bmp" alt="" /> </a>
+					</p>
+
+
 				</header>
 				<!-- <ul class="actions special">
 			<li><a href="#" class="button primary icon solid fa-download">Download</a></li>
