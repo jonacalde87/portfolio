@@ -557,23 +557,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<!-- <a href="mailto:jonathan.a.calderon3@gmail.com" target="_blank"
 					rel="noopener noreferrer">jonathan.a.calderon3@gmail.com</a> -->
 
-					<form class="" action="contact.php" method="post">
-						<!-- <label for="fname">Name</label> -->
-						<input type="text" id="name" name="firstname" placeholder="Name">
-						<!-- <label for="lname">email</label> -->
-						<input type="email" id="email" name="email" placeholder="Email">
-						<!-- <label for="country">Country</label>
-				  <select id="country" name="country">
-					<option value="australia">Australia</option>
-					<option value="canada">Canada</option>
-					<option value="usa">USA</option>
-				  </select> -->
-						<!-- 			  
-				  <label for="subject">Subject</label> -->
-						<textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+					<form action="https://formsubmit.co/jonathan.a.calderon3@gmail.com" method="POST">
+						<input type="text" name="name" placeholder="Name" required>
+						<input type="email" name="email" placeholder="Email" required>
+						<textarea name="message" placeholder="Message" style="height:200px" required></textarea>
 
-						<input type="submit" value="Submit">
-
+						<input type="hidden" name="_next" value="https://jonathancalderon3.netlify.app/thankyou.html">
+						<input type="hidden" name="_subject" value="New job offer!">
+						<button type="submit">Send</button>
 					</form>
 				</div>
 			</section>
@@ -602,6 +593,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- <script src="contact.js"></script> -->
 
 </body>
 
