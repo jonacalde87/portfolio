@@ -4415,11 +4415,9 @@ body.is-preload #header .image img {
 	text-align: center;
 }
 
-/* #name, #email, #message {
-	width: 50%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-
-} */
+.thanks {
+	background-color: #5fa2e6;
+	text-align: center;
+	margin-top: 25px;
+	color: black;
+}
